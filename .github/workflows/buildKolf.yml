@@ -1,5 +1,5 @@
 name: kdesrc-build workflow
-run-name: Kolf Build
+run-name: Kolf-Build
 on: [push]
 jobs:
 	Setup Environment:
