@@ -2,7 +2,7 @@ name: kdesrc-build workflow
 run-name: Kolf-Build
 on: [push]
 jobs:
-	Setup Environment:
+	Setup-Environment:
 		runs-on: ubuntu-latest
 		steps:
 			- name: Checkout repository
