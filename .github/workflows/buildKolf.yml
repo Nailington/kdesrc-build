@@ -12,11 +12,11 @@ jobs:
       - name: Run initial setup
         run: ./kdesrc-build --initial-setup
       - name: Prepare KDE project data
-        run: kdesrc-build --metadata-only
+        run: ./kdesrc-build --metadata-only
       - name: Verify kdesrc-build will work
-        run: kdesrc-build --pretend
+        run: ./kdesrc-build --pretend
       - name: Build Kolf!
-        run: kdesrc-build kolf
+        run: ./kdesrc-build kolf
       - name: Confirm Build Path
         run: |
           ls ~/kde
